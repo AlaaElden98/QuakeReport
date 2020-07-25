@@ -12,13 +12,20 @@
         android:layout_weight="1"
         android:text="Magntitude" />
 
+
+
     <TextView
-        android:id="@+id/location"
+        android:id="@+id/offSet_location"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Location" />
-
+        android:text="Offset Location" />
+    <TextView
+        android:id="@+id/primary_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Primary Location" />
     <TextView
         android:id="@+id/date"
         android:layout_width="0dp"
