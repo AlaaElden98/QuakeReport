@@ -2,10 +2,10 @@ package com.example.quakereport;
 
 public class EarthquakeInfo {
     private String mLocation;
-    private String mMagntitude;
+    private double mMagntitude;
     private long mTimeInMilliseconds;
 
-    public EarthquakeInfo(String location, String magntitude, long timeInMilliseconds) {
+    public EarthquakeInfo(String location, double magntitude, long timeInMilliseconds) {
         mLocation = location;
         mMagntitude = magntitude;
         mTimeInMilliseconds = timeInMilliseconds;
@@ -15,7 +15,7 @@ public class EarthquakeInfo {
         return mLocation;
     }
 
-    public String getMagntitude() {
+    public double getMagntitude() {
         return mMagntitude;
     }
 
